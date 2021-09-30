@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+.viewportElement{
+  height: 600px;
+  width: 100%;
+}
+
+
+.form-input{
+  background-color: #FFF;
+  z-index: 999;
+  top: 0px;
+  left: 100px;
+  position: absolute;
+  border: 1px solid #CCC;
+}
+.annotation-editor{
+  display: table;
+  border-collapse: collapse;
+}
+
+.form-input_close{
+  position: absolute;
+  background-color: cadetblue;
+  border: 1px solid #0CF;
+  right: -12px;
+  top: -12px;
+  width: 20px;
+  text-align: center;
+  color: #FFF !important;
+  border-radius: 50%;
+  font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  cursor: pointer;
+}
+
+.form-input_close:hover{
+  background-color: rgb(57, 68, 68);
+}
+
+.annotation-editor-header{
+  font-size: 15px;
+}
+
+.annotation-editor_row{
+  display: table-row;
+}
+
+.annotation-editor_col{
+  display: table-cell;
+  padding: 0.1em 0.6em;
+  border: 1px solid #000000;
+  vertical-align: middle;
+  font-size: inherit;
+}
